@@ -1,0 +1,20 @@
+Meal It is our capstone project as Computer Science Majors at Hunter College. We put our knowledges together to develop an enjoyable recipe app for everybody in general and student in particular.  The class grading established by Professor Alvin Lam is as follow: 
+Weekly Team Reports - 20% 
+	Every Tuesday your team will have to submit a report answering the following questions: 
+	What was your goal for last week and how did you achieve/meet those goals. What are your group is planning for the next week. 
+	Reports on any blockers/issues and how your group plans on resolving them. Group report on who worked on what and what they have individually achieved. Project Contributions and Presentations (1 individual and 3 team) 
+Project Pitch - 15% (Individual) - Presentations will be held on the first day of class 
+Group Project Proposal - 20% (Group) - Presentations will be held on June 8th and June 10th 
+MVP Demo - 20% (Group) - Presentation will be held on the days of (July 6 and July 8) 
+Final Presentation - 25% (Group) - Presentations will be held on the days of (Aug 10 and Aug 12). 
+Data provided by the users are stored in our database that we maintain manually. These informations will not be sold to third parties. The app is also free of charge. Please note that these policies are subject to change as this is just an initial work. The team might work in a near future to improve Meal It and make it available on the app store. Thank You for your support!
+
+
+Resources:
+
+UIKit Apprentice Beginning iOS Development with Swift by Fahim Farook, Matthijs Hollemans (z-lib.org) 
+iosacademy.com
+swiftuimasterclass.com by Robert Petras                             
+SDWebimage on Github Repository                 
+TheMeaIDB by thecocktaildb on RapidAPI 
+Firebase
