@@ -18,3 +18,15 @@ swiftuimasterclass.com by Robert Petras
 SDWebimage on Github Repository                 
 TheMeaIDB by thecocktaildb on RapidAPI 
 Firebase
+
+
+pods:
+'SDWebImage'
+'Firebase/Analytics'
+'Firebase/Auth'
+'Firebase/Core'
+'Firebase/Firestore'
+'youtube-ios-player-helper'
+
+Package Used: 
+https://github.com/SDWebImage/SDWebImageSwiftUI.git
