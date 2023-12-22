@@ -1,13 +1,9 @@
-//
 //  Custom_Button.swift
-//
-//
+
 
 import UIKit
 
 @IBDesignable class Custom_Button: UIButton {
-
-    
     // ****** Setting Corner Radius ***********
     @IBInspectable var cornerRadius : CGFloat = 0{
         
@@ -16,7 +12,6 @@ import UIKit
             layer.cornerRadius = cornerRadius
         
         }
-        
     }
     
     // ******* Setting Border Color *******
