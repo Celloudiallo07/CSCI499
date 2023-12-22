@@ -1,13 +1,10 @@
-//
 //  ConfigureUserInterface.swift
-//
-//
+
 
 import Foundation
 import UIKit
 
 public class ConfigureUserInterface: NSObject{
-    
     
     public static func configureNavigationBar(navBar : UINavigationBar){
         navBar.setBackgroundImage(UIImage(), for: .default)
