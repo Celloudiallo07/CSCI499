@@ -1,20 +1,15 @@
-//
 //  Custom_Label.swift
-//
-//
+
 
 import UIKit
 
 class Custom_Label: UILabel {
-
     @IBInspectable var C_Radius : CGFloat = 0 {
         didSet{
             layer.cornerRadius = C_Radius
-            
-            
         }
-        
     }
+    
     @IBInspectable
     var shadowRadius: CGFloat {
         get {
@@ -49,7 +44,5 @@ class Custom_Label: UILabel {
             
             layer.borderWidth = border_width
         }
-        
     }
-
 }
