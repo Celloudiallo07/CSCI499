@@ -1,16 +1,11 @@
-//
 //  DashboardViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 import SDWebImage
 
 class DashboardViewController: UIViewController {
-
-    
-    
     @IBOutlet  weak var collectionView : UICollectionView!
     @IBOutlet weak var dashBoardTableView : UITableView!
     
@@ -33,9 +28,6 @@ class DashboardViewController: UIViewController {
         dashBoardTableView.delegate = self
         dashBoardTableView.dataSource = self
         dashBoardTableView.reloadData()
-        
-        
-        
         
         
         VM.GetMeals { status, Result, Error in
@@ -65,7 +57,6 @@ class DashboardViewController: UIViewController {
                 }
             }
         }
-
     }
     
 
@@ -112,7 +103,6 @@ extension DashboardViewController: UICollectionViewDelegate, UICollectionViewDat
         
         return cell
     }
-    
 }
 
 
@@ -146,7 +136,6 @@ extension DashboardViewController  : UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
-        
-      
+
     }
 }
