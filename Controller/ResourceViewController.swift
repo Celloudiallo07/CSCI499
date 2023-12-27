@@ -1,13 +1,10 @@
-//
 //  ResourceViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 
 class ResourceViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,5 +19,4 @@ class ResourceViewController: UIViewController {
 //        self.view.window?.makeKeyAndVisible()
 //        self.navigationController?.popViewController(animated: true)
     }
-
 }
