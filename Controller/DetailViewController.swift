@@ -1,15 +1,11 @@
-//
 //  DetailViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 import SDWebImage
 
 class DetailViewController: UIViewController {
-
-    
     @IBOutlet weak var smoothieImage : UIImageView!
     
     @IBOutlet weak var smoothieTitle : UILabel!
@@ -27,7 +23,6 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         
-
             let node  = """
 \(selectedRecipe.strIngredient1 ?? "")  \(selectedRecipe.strMeasure1 ?? "")
 
@@ -73,7 +68,6 @@ class DetailViewController: UIViewController {
 
             ingredient = node
       
-
         smoothieTitle.text = selectedRecipe.strMeal
         
         let imageurl  = URL(string: selectedRecipe.strMealThumb!)
@@ -85,8 +79,6 @@ class DetailViewController: UIViewController {
             self.smoothieImage.sd_setImage(with: imageurl, placeholderImage: UIImage(named: "logo")!, options: .progressiveLoad, progress: .none, completed: .none)
             self.smoothieImage.alpha = 1
         }
-        
-      
         
         content.text = ingredient
         
@@ -110,5 +102,4 @@ class DetailViewController: UIViewController {
     @IBAction func backButtonAction(){
         self.navigationController?.popViewController(animated: true)
     }
-
 }
