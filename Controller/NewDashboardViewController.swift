@@ -1,15 +1,12 @@
-//
 //  NewDashboardViewController.swift
 //  Meal It
-//
 //  Created by user201339 on 8/3/21.
-//
+
 
 import UIKit
 import SwiftUI
 
     
-
 class NewDashboardViewController: UIViewController {
     @IBOutlet weak var container : UIView!
     
@@ -22,6 +19,4 @@ class NewDashboardViewController: UIViewController {
             container.addSubview(childView.view)
         
     }
-
-
 }
