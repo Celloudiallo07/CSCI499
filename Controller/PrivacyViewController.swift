@@ -1,13 +1,10 @@
-//
 //  PrivacyViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 
 class PrivacyViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,5 +19,4 @@ class PrivacyViewController: UIViewController {
 //        self.view.window?.makeKeyAndVisible()
 //        self.navigationController?.popViewController(animated: true)
     }
-
 }
