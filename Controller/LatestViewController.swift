@@ -1,16 +1,11 @@
-//
 //  FavouriteViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 import SDWebImage
 
 class LatestViewController: UIViewController {
-
-    
-    
     @IBOutlet weak var LatestTableView : UITableView!
     
     var latestList : Latest?
@@ -24,7 +19,6 @@ class LatestViewController: UIViewController {
         LatestTableView.delegate = self
         LatestTableView.dataSource = self
         LatestTableView.reloadData()
-       
         
         VM.Getlatest{ status, Result, Error in
             if status{
@@ -39,7 +33,6 @@ class LatestViewController: UIViewController {
                 }
             }
         }
-
     }
     
     
@@ -64,7 +57,6 @@ class LatestViewController: UIViewController {
         else if tag == 0{
             tabBarController?.selectedIndex = 3
         }
-        
     }
 
     /*
@@ -76,7 +68,6 @@ class LatestViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
 
 
