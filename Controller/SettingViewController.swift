@@ -1,13 +1,10 @@
-//
 //  SettingViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 
 class SettingViewController: UIViewController {
-
     @IBOutlet weak var logOutButton: UIButton!
     @IBOutlet weak var YoutubeButton: UIButton!
     override func viewDidLoad() {
@@ -50,7 +47,6 @@ class SettingViewController: UIViewController {
         else if tag == 0{
             tabBarController?.selectedIndex = 3
         }
-        
     }
     
     
@@ -76,5 +72,4 @@ class SettingViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
