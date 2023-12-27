@@ -1,14 +1,11 @@
-//
 //  InterestViewController.swift
 //  Meal It
-//
 //  Created by David Luo on 6/23/21.
-//
+
 
 import UIKit
 
 class InterestViewController: UIViewController {
-
     @IBOutlet weak var BeginButton: UIButton!
     
     override func viewDidLoad() {
@@ -20,5 +17,4 @@ class InterestViewController: UIViewController {
         BeginButton.layer.shadowOpacity = 0.6
         
     }
-
 }
