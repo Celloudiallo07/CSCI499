@@ -1,9 +1,7 @@
-//
 //  SignUpViewController.swift
 //  Meal It
-//
 //  Created by David Luo on 6/17/21.
-//
+
 
 import UIKit
 import FirebaseAuth
@@ -103,10 +101,8 @@ class SignUpViewController: UIViewController {
                         }
                     }
                 }
-
             }
         }
-
     }
     
     // error show function
@@ -115,5 +111,4 @@ class SignUpViewController: UIViewController {
         errorLabel.text = message
         errorLabel.alpha = 1
     }
-
 }
