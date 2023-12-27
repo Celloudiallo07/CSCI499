@@ -1,14 +1,11 @@
-//
+
 //  HomeViewController.swift
 //  Meal It
-//
 //  Created by David Luo on 6/17/21.
-//
 
 import UIKit
 
 class HomeViewController: UIViewController {
-
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var SignUpButton: UIButton!
     
@@ -28,6 +25,4 @@ class HomeViewController: UIViewController {
         SignUpButton.layer.shadowRadius = 4
         SignUpButton.layer.shadowOpacity = 0.6
     }
-    
-
 }
