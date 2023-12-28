@@ -1,9 +1,7 @@
-//
 //  SearchUIView.swift
 //  Meal It
-//
 //  Created by user201339 on 8/4/21.
-//
+
 
 import SwiftUI
 import SDWebImageSwiftUI
@@ -20,8 +18,7 @@ struct SearchUIView: View {
                 Spacer()
                 //.padding(.horizontal)
                 
-                
-                
+
                 HStack {
                     Button(action: {
                         presentation.wrappedValue.dismiss()
@@ -38,8 +35,7 @@ struct SearchUIView: View {
                 
                 HStack {
                     
-                    
-                
+
                     Text("Search result")
                         .font(.system(size: 29, weight: .bold))
                     
