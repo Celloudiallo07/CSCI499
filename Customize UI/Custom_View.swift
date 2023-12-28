@@ -1,7 +1,5 @@
-//
 //  Custom_View.swift
-//
-//
+
 
 import UIKit
 
@@ -9,11 +7,8 @@ import UIKit
 
     @IBInspectable var C_Radius : CGFloat = 0 {
         didSet{
-            layer.cornerRadius = C_Radius
-            
-            
+            layer.cornerRadius = C_Radius 
         }
-   
     }
     @IBInspectable
     var shadowRadius: CGFloat {
