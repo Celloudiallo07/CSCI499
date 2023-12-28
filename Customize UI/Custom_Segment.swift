@@ -1,14 +1,10 @@
-//
 //  Custom_Segment.swift
-//
-//
+
 
 import UIKit
 
 @IBDesignable
 class Custom_Segment: UIControl {
-
-    
     var buttons = [UIButton]()
     var selector : UIView!
     var selectedSegmentIndex = 0
@@ -69,8 +65,6 @@ class Custom_Segment: UIControl {
         subviews.forEach{$0.removeFromSuperview()}
         
         
-        
-        
         let buttonTitles = commaSeparatedButtonTitle.components(separatedBy: ",")
         
         for buttonTitle in buttonTitles{
@@ -127,5 +121,4 @@ class Custom_Segment: UIControl {
         }
         sendActions(for: .valueChanged)
     }
- 
 }
