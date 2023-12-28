@@ -1,9 +1,7 @@
-//
 //  RecipeView.swift
 //  Meal It
-//
 //  Created by user201339 on 8/3/21.
-//
+
 
 import SwiftUI
 import SDWebImageSwiftUI
@@ -21,7 +19,7 @@ struct RecipeView: View {
                         destination: RecipeDetailsView(item: item), label: {NewRecipesView(item: item)})
                   
                         }
-        }
+                    }    
             
         .navigationBarHidden(true)
         .padding(.horizontal)
@@ -30,14 +28,14 @@ struct RecipeView: View {
         .onAppear{
            viewModel.getData()
 
-    }
+                }
    
     }
     
-struct RecipeView_Previews: PreviewProvider {
-    static var previews: some View {
-        
-        RecipeView()
+    struct RecipeView_Previews: PreviewProvider {
+        static var previews: some View {
+            
+            RecipeView()
+        }
     }
-}
 }
