@@ -1,7 +1,5 @@
-//
 //  Custom_View.swift
-//
-//
+
 
 import UIKit
 
@@ -51,9 +49,7 @@ class UnderlinedTextField: UITextField {
                 self.addSubview(imageView)
             }
         }
-        
     }
-    
     
     override func textRect(forBounds bounds: CGRect) -> CGRect {
         return CGRect(x: indentation, y: bounds.origin.y, width: bounds.width, height: bounds.height)
@@ -62,7 +58,6 @@ class UnderlinedTextField: UITextField {
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
         return CGRect(x: indentation, y: bounds.origin.y, width: bounds.width, height: bounds.height)
     }
-    
     
     enum Direction {
         case Left
@@ -105,6 +100,4 @@ class UnderlinedTextField: UITextField {
         self.layer.borderWidth = CGFloat(0.5)
         self.layer.cornerRadius = 5
     }
-    
-
 }
