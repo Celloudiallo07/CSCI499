@@ -1,9 +1,7 @@
-//
 //  RecipeViewModel.swift
 //  Meal It
-//
 //  Created by user201339 on 8/2/21.
-//
+
 
 import Foundation
 import SwiftUI
@@ -27,7 +25,7 @@ class RecipeViewModel: ObservableObject {
                         self.items = search.meals
                         print(search)
                         return
-                }
+                    }
                 }
                 catch {
                     print(error)
