@@ -1,9 +1,7 @@
-//
 //  Constants.swift
 //  Meal It
-//
 //  Created by user201339 on 8/3/21.
-//
+
 
 import Foundation
 
