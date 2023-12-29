@@ -1,7 +1,6 @@
-//
 //  CodableBundleExtension.swift
 //  Meal It
-//
+
 
 
 import Foundation
