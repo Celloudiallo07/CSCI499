@@ -1,9 +1,7 @@
-//
 //  SearchViewModel.swift
 //  Meal It
-//
 //  Created by user201339 on 8/4/21.
-//
+
 
 import Foundation
 
