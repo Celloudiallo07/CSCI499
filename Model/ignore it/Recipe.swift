@@ -1,8 +1,6 @@
-//
 //  Recipe.swift
 //  Meal It
-//
-//
+
 
 import Foundation
 
@@ -14,5 +12,4 @@ struct Recipe: Codable, Identifiable {
     let steps: String
     let title:String
     let isRecommended : Bool
-    
 }
