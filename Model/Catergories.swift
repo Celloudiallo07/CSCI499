@@ -16,5 +16,4 @@ struct Catergories : Codable {
                 let values = try decoder.container(keyedBy: CodingKeys.self)
                 meals = try values.decodeIfPresent([CatergoriesMeal].self, forKey: .meals)
         }
-
 }
