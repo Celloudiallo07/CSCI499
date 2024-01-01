@@ -1,4 +1,3 @@
-//
 //  Catergories.swift
 //  Model Generated using http://www.jsoncafe.com/ 
 
