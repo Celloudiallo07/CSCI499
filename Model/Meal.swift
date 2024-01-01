@@ -1,4 +1,3 @@
-//
 //  Meal.swift
 //  Model Generated using http://www.jsoncafe.com/ 
 
@@ -22,5 +21,4 @@ struct Meal : Codable {
                 strMeal = try values.decodeIfPresent(String.self, forKey: .strMeal)
                 strMealThumb = try values.decodeIfPresent(String.self, forKey: .strMealThumb)
         }
-
 }
