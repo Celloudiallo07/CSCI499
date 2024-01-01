@@ -1,14 +1,11 @@
-//
 //  ApiViewModel.swift
-//
-//
+
 
 import Foundation
   
 
 class ApiViewModel: ObservableObject{
 
-    
     func GetMeals(completion: @escaping(_ status : Bool,_ getData : Meals,_ err : String?)->() ){
         
         let headers = [
@@ -43,8 +40,6 @@ class ApiViewModel: ObservableObject{
         })
 
         dataTask.resume()
-        
-     
     }
     
     
@@ -82,8 +77,6 @@ class ApiViewModel: ObservableObject{
         })
 
         dataTask.resume()
-        
-     
     }
     
     func GetCatergories(completion: @escaping(_ status : Bool,_ getData : Catergories,_ err : String?)->() ){
@@ -120,10 +113,6 @@ class ApiViewModel: ObservableObject{
         })
 
         dataTask.resume()
-        
-     
     }
-    
-    
 }
 
