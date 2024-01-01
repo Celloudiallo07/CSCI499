@@ -1,4 +1,3 @@
-//
 //  Meal.swift
 //  Model Generated using http://www.jsoncafe.com/ 
 
@@ -172,5 +171,4 @@ struct LatestMeal : Codable {
 //                strTags = try values.decodeIfPresent(AnyObject.self, forKey: .strTags)
                 strYoutube = try values.decodeIfPresent(String.self, forKey: .strYoutube)
         }
-
 }
