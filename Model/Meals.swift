@@ -1,4 +1,3 @@
-//
 //  Meals.swift
 //  Model Generated using http://www.jsoncafe.com/ 
 
@@ -16,5 +15,4 @@ struct Meals : Codable {
                 let values = try decoder.container(keyedBy: CodingKeys.self)
                 meals = try values.decodeIfPresent([Meal].self, forKey: .meals)
         }
-
 }
