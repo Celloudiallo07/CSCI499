@@ -1,9 +1,7 @@
-//
 //  YoutubePlayerViewController.swift
 //  Meal It
-//
 //  Created by David Luo on 7/15/21.
-//
+
 
 //import UIKit
 //import youtube_ios_player_helper
