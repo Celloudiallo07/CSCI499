@@ -1,8 +1,6 @@
-//
 //  ViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 import Firebase
