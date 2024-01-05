@@ -1,8 +1,6 @@
-//
 //  VideoPlayerViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 import AVKit
@@ -32,7 +30,6 @@ class VideoPlayerViewController: UIViewController, YTPlayerViewDelegate {
             view.layer.addSublayer(layer)
           player.play()
         }
-
     }
     
 
@@ -53,7 +50,5 @@ class VideoPlayerViewController: UIViewController, YTPlayerViewDelegate {
             isPlay = true
 
         }
-       
     }
-
 }
