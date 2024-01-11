@@ -29,7 +29,6 @@ struct RecipeView: View {
            viewModel.getData()
 
                 }
-   
     }
     
     struct RecipeView_Previews: PreviewProvider {
