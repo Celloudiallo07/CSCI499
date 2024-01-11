@@ -53,8 +53,7 @@ struct HomeView: View {
                     }
         
                         .hidden()
-            
-                    
+
                     RecipeView()
                     .padding(.top)
                     
@@ -67,20 +66,18 @@ struct HomeView: View {
             .edgesIgnoringSafeArea([.all])
             
         }
-            
             .navigationBarTitle(Text("x"))
             .navigationBarBackButtonHidden(true)
             .navigationBarHidden(true)
             .ignoresSafeArea(.all, edges: .all)
                     
-
     }
 
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+        }
     }
-}
 }
 
