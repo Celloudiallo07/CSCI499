@@ -17,7 +17,6 @@ class UnderlinedTextField: UITextField {
     @IBInspectable var indentation:CGFloat=20
     
     
-    
     override func draw(_ rect: CGRect) {
         let underline = CALayer()
         underline.borderColor = color.cgColor
