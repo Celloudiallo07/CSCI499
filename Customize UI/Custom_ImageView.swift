@@ -73,7 +73,5 @@ import UIKit
             
             layer.borderWidth = border_width
         }
-        
     }
-
 }
