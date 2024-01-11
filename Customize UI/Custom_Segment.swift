@@ -41,7 +41,6 @@ class Custom_Segment: UIControl {
         }
     }
     
-    
     @IBInspectable
     var selectorColor : UIColor = .blue{
         
@@ -49,7 +48,6 @@ class Custom_Segment: UIControl {
             updateView()
         }
     }
-    
     
     @IBInspectable
     var selectorTextColor : UIColor = .white{
