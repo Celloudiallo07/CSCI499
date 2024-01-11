@@ -66,8 +66,6 @@ import UIKit
         }
     }
     
-    
-    
     @IBInspectable var firstColor : UIColor = UIColor.clear{
         
         didSet{
