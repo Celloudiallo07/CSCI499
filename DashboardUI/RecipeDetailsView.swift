@@ -145,12 +145,8 @@ struct RecipeDetailsView: View {
                                     .padding(.vertical)
                                     
                                     Divider()
-                    
                                 }
                                 .padding(.horizontal)
-                            
-                                
-                        
                     }
                     .background(Image("background").resizable()
                         .edgesIgnoringSafeArea([.bottom]))
