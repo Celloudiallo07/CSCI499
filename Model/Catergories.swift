@@ -4,7 +4,6 @@
 import Foundation
 
 struct Catergories : Codable {
-
         let meals : [CatergoriesMeal]?
 
         enum CodingKeys: String, CodingKey {
