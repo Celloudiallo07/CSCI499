@@ -5,8 +5,7 @@
 
 import Foundation
 
-struct SelectController {
-    
+struct SelectController 
     struct Storyboard {
         static let homeViewController = "HomeVC"
         static let mainPageViewController = "MainPageVC"
