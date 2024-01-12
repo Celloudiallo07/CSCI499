@@ -23,7 +23,6 @@ struct Dish: Codable {
     var strIngredient8: String?
     var strIngredient9: String?
 
-    
     var strMeasure1: String?
     var strMeasure2: String?
     var strMeasure3: String?
@@ -33,7 +32,6 @@ struct Dish: Codable {
     var strMeasure7: String?
     var strMeasure8: String?
     var strMeasure9: String?
-
     
     subscript(key: String) -> String? {
         switch key {
@@ -57,7 +55,6 @@ struct Dish: Codable {
         case "strMeasure7": return strMeasure7
         case "strMeasure8": return strMeasure8
         case "strMeasure9": return strMeasure9
-
 
         case "strInstructions": return strInstructions
             
